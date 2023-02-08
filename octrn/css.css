@@ -1,0 +1,117 @@
+body {
+    word-spacing: 2px;
+    font-size: 13px;
+    margin-top: 55px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 21px;
+    letter-spacing: 4.5px;
+}
+
+/* Carousel */
+.carousel .carousel-item {
+    transition: all 1.5s ease-in-out;
+}
+
+/* Section */
+section {
+    padding: 20px 0;
+}
+
+/* About Us */
+.about h2,.features h2, .services h2, .product h2, .contact h2 {
+    margin-bottom: 25px;
+    padding: 0px 0;
+    font-size: 25px;
+}
+
+/* Features */
+.features {
+    background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.features a img {
+    box-shadow: 0px 25px 10px -20px rgba(0, 0, 0, 0.75);
+}
+
+.img-fluid {
+    transition: all 0.8s ease-out;
+    border : 0px solid gray;
+    border-radius: 12px;
+}
+  
+a:hover img {
+    transform: translateY(-7px);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 55px 10px -35px rgba(0, 0, 0, 0.15);
+}
+
+.features a p:nth-child(1) {
+    padding-top: 8px;
+}
+  
+.features a:hover p:nth-child(1) {
+    color: rgb(72, 72, 72) !important;
+}
+
+.features .card-body p:nth-child(2) {
+    font-size: 14px;
+    color: black;
+    padding-top: 5px;
+}
+  
+.features .klik-lanjut {
+    font-size: 9px !important;
+    background-color: gray;
+    width: 115px;
+    height: 22px;
+    line-height: 11px;
+    margin : 5px auto 0;
+    border: 0 solid black;
+    border-radius: 4px;
+}
+
+.features .klik-lanjut:hover {
+    opacity: .8;
+    color: #333 !important;
+}
+
+/* Find Us */
+.parallax-container {
+    /* Posision gambar sebagai latar belakang */
+    background-image: url('image/findus/parallax.jpg');
+    
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-position-y: center;
+    background-size: 100%;
+}
+
+.supportH3 {
+    color: lightgray !important;
+    margin-top: 30px;
+    text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.386);
+    /* font-size: 65px; */
+    font-size: 2.5vw;
+}
+
+.logo-market {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.3));
+    height: 100px;
+    width: 210px;
+}
+
+.logoShopee {
+    margin-top: 20px;
+}
