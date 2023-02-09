@@ -61,6 +61,10 @@ a:hover img {
     color: rgb(72, 72, 72) !important;
 }
 
+.card-body {
+    margin-bottom: 25px;
+  }
+
 .features .card-body p:nth-child(2) {
     font-size: 14px;
     color: black;
@@ -126,7 +130,10 @@ a:hover img {
 @media (max-width: 576px) {
     .logoWa {
       height: 25%;
-      width: 30%;
+      width: 38%;
+    }
+    .logoShopee {
+        width: 125%;
     }
   }
 
@@ -160,8 +167,8 @@ a:hover img {
     transition: all .4s ease-in-out;
 }
   .product img.zoom:hover {
-    -webkit-transform: scale(1.5); 
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(1.3); 
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
 }
