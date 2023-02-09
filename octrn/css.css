@@ -114,4 +114,10 @@ a:hover img {
 
 .logoShopee {
     margin-top: 20px;
+    width: 100%;
+}
+
+.logoWa {
+    width: 50%;
+    height: 50%;
 }
