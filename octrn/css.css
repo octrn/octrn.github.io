@@ -119,13 +119,14 @@ a:hover img {
 
 .logoWa {
     margin-top: 50px;
-    width: 35%;
+    width: 40%;
     height: 35%;
 }
 
 @media (max-width: 576px) {
     .logoWa {
       height: 25%;
+      width: 30%;
     }
   }
 
@@ -143,4 +144,24 @@ a:hover img {
     margin: auto;
     padding-top: 30px;
     padding-bottom: 5px;
+}
+
+/* Product */
+.product .prodImg img {
+    height: 145px !important;
+    width: 160px !important;
+    margin-bottom: 55px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+                0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+  .product img.zoom {
+    width: 350px;
+    height: 200px;
+    transition: all .4s ease-in-out;
+}
+  .product img.zoom:hover {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
 }
