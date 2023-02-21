@@ -133,7 +133,10 @@ a:hover img {
       width: 38%;
     }
     .logoShopee {
-        width: 125%;
+        width: 100%;
+    }
+    .boxShopee {
+        width: 145px;
     }
   }
 
